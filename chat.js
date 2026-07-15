@@ -4,11 +4,11 @@
  *  prior written authorization from Sandip Salunke
  */
 
-var socket = io();
-var allChatMessages = [];
-var chatNotificationCount = [];
-var myUser = {};
-var myFriend = {};
+const socket = io();
+const allChatMessages = [];
+const chatNotificationCount = [];
+const myUser = {};
+const myFriend = {};
 
 
 
